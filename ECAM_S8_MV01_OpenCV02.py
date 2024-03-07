@@ -16,13 +16,13 @@ cv2.imshow('A Color Image', img_color)
 cv2.imshow('A Gray Scale Image', img_grayscale)
 
 #image properties
-print('Colored image size'.format(img_color.shape))
+print("Colored image size {}.".format(img_color.shape))
 #print out value of a pixel of color image
 px_color = img_color[100,100]
 print( "Values of G/R/B pixels {}.".format(px_color))
 
 #grayscale image properties
-print('Gray scale image size'.format(img_grayscale.shape))
+print("Gray scale image size {}.".format(img_grayscale.shape))
 #print out value of a pixel of color image
 px_grayscale = img_grayscale[100,100]
 print( "Pixel intensity {}.".format(px_grayscale))
