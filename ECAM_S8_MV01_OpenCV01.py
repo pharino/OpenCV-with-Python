@@ -24,4 +24,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 #write grayscale image to "asset" folder
-cv2.imwrite("asset/sample_01_grayscale.jpg",img_grayscale)
+cv2.imwrite("asset/sample_01_grayscale.png",img_grayscale)
