@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 
 # Select video source. Start from 0,1, 2, ... 
-cap = cv.VideoCapture(1)
+cap = cv.VideoCapture(0)
 
 if not cap.isOpened():
     print("Cannot open camera")
