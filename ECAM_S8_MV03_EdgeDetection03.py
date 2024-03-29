@@ -12,8 +12,8 @@ args = vars(ap.parse_args())
 img_gray = cv2.imread(args["image"], 0) #read file as gray scale color
 
 #Define threshol value
-threshold1 = 30
-threshold2 = 220
+threshold1 = 100
+threshold2 = 200
 
 #calculate edge detection
 img_edge = cv2.Canny(img_gray, threshold1, threshold2)

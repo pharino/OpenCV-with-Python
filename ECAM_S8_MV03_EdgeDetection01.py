@@ -14,6 +14,7 @@ height, width = img_grayscale.shape
 I_x = np.zeros((height, width))
 I_y= np.zeros((height, width))
 I = np.zeros((height, width))
+
 for i in range(1,height ,1):
     I_x[i,:] = img_grayscale[i,:] - img_grayscale[i-1,:]
 
